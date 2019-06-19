@@ -1,0 +1,296 @@
+*, html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* googele
+fonts font-family: 'Noto Sans KR', sans-serif;
+font-family: 'IBM Plex Serif', serif;
+ */
+body {
+  height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#top-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#top-section .head-img {
+  width: 100%;
+  height: 100%;
+  background: url('https://images.pexels.com/photos/1884256/pexels-photo-1884256.jpeg?auto=format%2Ccompress&cs=tinysrgb&h=750&w=1260');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  filter: contrast(100%) saturate(1.4);
+  /* background-attachment: fixed; */
+}
+
+#top-section .home-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+#top-section .home-container .home-info {
+  width: 100%;
+  color: rgba(252, 252, 252, 1);
+  /* color: #A5C19E; */
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2.3;
+}
+
+#top-section .home-container .home-info p {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #1b1b1b;
+}
+
+#top-section .home-container .home-info h2 {
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+section {
+  padding: 58px 0;
+  background: url('https://images.pexels.com/photos/1439712/pexels-photo-1439712.jpeg?auto=format%2Ccompress&cs=tinysrgb&h=750&w=1260');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: contrast(80%) saturate(90px);
+}
+
+section .columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section .columns .column-1,
+section .columns .column-2 {
+  margin: 0 auto;
+}
+
+section .columns .column-1 .guide-box {
+  width: 410px;
+  background: rgba(56, 56, 56, 1);
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+section .columns .column-1 .guide-box .box-container {
+  margin: 0 auto;
+  padding: 60px 64px 170px;
+}
+
+section .columns .column-1 .guide-box .box-container h3 {
+  font-family: sans-serif;
+  font-size: 1.75rem;
+  font-weight: 100 !important;
+  color: rgba(252, 252, 252, 1);
+  letter-spacing: 1px;
+}
+
+section .columns .column-1 .guide-box .box-container .button {
+  text-align: center;
+  margin: 30px auto 0;
+  background: #06E3FB;
+  padding: 14px 0;
+  border-radius: 3px;
+  cursor: pointer;
+  filter: contrast(80%);
+  opacity: .7;
+  transition: all .3s ease-in-out;
+}
+
+section .columns .column-1 .guide-box .box-container .button:hover {
+  filter: contrast(100%);
+  opacity: 1;
+  -webkit-box-shadow: 0px 21px 29px -8px rgba(46, 73, 143, 0.76);
+  -moz-box-shadow: 0px 21px 29px -8px rgba(46, 73, 143, 0.76);
+  box-shadow: 0px 21px 29px -8px rgba(46, 73, 143, 0.76);
+  s
+}
+
+section .columns .column-1 .guide-box .box-container .button a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: .8rem;
+  font-weight: 600;
+  color: #1b1b1b;
+  text-transform: capitalize;
+  text-align: center;
+  transition: all .4s ease-in-out;
+}
+
+section .columns .column-1 .guide-box .box-container .button:hover a {
+  color: purple;
+}
+
+section .columns .column-1 .guide-box .box-container .click {
+  color: rgba(252, 252, 252, 1);
+  font-size: .8rem;
+  font-weight: 200;
+  text-align: center;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+section .columns .column-1 .guide-box .box-container .click a {
+  text-decoration: underline;
+  color: rgba(252, 252, 252, 1);
+  transition: all .4s ease-in-out;
+}
+
+section .columns .column-1 .guide-box .box-container .click a:hover {
+  text-decoration: none;
+}
+
+section .columns .column-2 {
+  /* background: red; */
+  width: 100%;
+}
+
+section .columns .column-2 .buy-guide {
+  /* background: #ccc; */
+  display: block;
+  width: 80%;
+  margin: 60px auto;
+}
+
+section .columns .column-2 .buy-guide .heading {}
+
+section .columns .column-2 .buy-guide .heading h3 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.75rem;
+  /* color: rgba(56, 56, 56, 1); */
+  color: rgba(245, 245, 245, 1);
+  font-weight: 300;
+  letter-spacing: 1.3px;
+  line-height: 1.4;
+}
+
+section .columns .column-2 .buy-guide .heading h3 span {
+  font-weight: 500;
+}
+
+ul, li {}
+
+section .columns .column-2 .buy-guide ul {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+section .columns .column-2 .buy-guide ul li {
+  font-size: 1.1rem;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 200;
+  /* color: rgba(56, 56, 56, 1); */
+  color: rgba(245, 245, 245, 1);
+  line-height: 1.5;
+  letter-spacing: .8px;
+  padding: 0 0 10px 0;
+}
+
+footer {
+  background: rgba(245, 245, 245, 1);
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  /* padding: 60px 200px 30px; */
+}
+
+footer h3 {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 200;
+  color: rgba(56, 56, 56, 1);
+  padding-top: 60px;
+}
+
+footer .img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background: url('https://images.unsplash.com/photo-1527605555-b01c458b8029?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+footer .about {
+  width: 100%;
+  margin-top: 68px;
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+footer .about .fas {
+  display: inline-block;
+  font-size: 50px;
+  background: -webkit-linear-gradient(#1b1b1b, #06E3FB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer .about .about-info p {
+  width: 100%;
+  line-height: 2;
+  font-size: .98rem;
+  color: rgba(56, 56, 56, 1);
+  letter-spacing: 1px;
+}
+
+footer .about .about-info .agent-info {
+  width: 100%;
+  line-height: 2;
+  font-size: .98rem;
+  color: rgba(56, 56, 56, 1);
+  letter-spacing: 1px;
+  margin-top: 24px;
+}
+
+footer .about .about-info .agent-info span {
+  font-weight: 700;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  opacity: 1;
+  filter: brightness(30%);
+}
+
+footer .about .about-info .agent-info span:hover {
+  font-weight: 700;
+  cursor: pointer;
+  filter: brightness(70%) contrast(80%) saturate(2.7);
+  color: rgba(46, 73, 143, .8);
+}
+
+footer .policy {
+  width: 100%;
+  line-height: 1.4;
+  font-size: .9rem;
+  color: rgba(56, 56, 56, 1);
+  margin-top: 110px;
+}
