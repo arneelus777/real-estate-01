@@ -2,4 +2,4 @@
 
 ## Add more features
 
-* CENTER FOOTER IMAGE *
+* CENTER FOOTER IMAGE 
