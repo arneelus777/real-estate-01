@@ -11,4 +11,6 @@ left grid to justify left (justify-self:start)
 right grid to justify right (justify-self:end)
  To fit in container properly
  
- ## Remove padding for last section (footer) to fit properly in container with middle section.
+ ### Remove padding for last section (footer) to fit properly in container with middle section.
+ 
+ ### Add a nav bar ( make it simple )
